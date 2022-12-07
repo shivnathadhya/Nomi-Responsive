@@ -1,0 +1,203 @@
+@media (max-width: 1024px) {
+  .nav-content {
+    display: none;
+  }
+  .nav-contentright {
+    display: none;
+  }
+  .homepage .introduction-content .main {
+    width: 80%;
+  }
+  .homepage .introduction-content .main .intro-text {
+    bottom: -6.5rem;
+    left: -2.5rem;
+  }
+  .homepage .introduction-content .main #intro-button {
+    width: 68%;
+  }
+  .reality {
+    height: 205vh;
+  }
+  .reality1 {
+    flex-direction: column;
+    height: 50%;
+  }
+  .real1 {
+    width: 100%;
+    height: 50%;
+  }
+  .real2 {
+    width: 100%;
+    height: 50%;
+    padding-top: 15%;
+  }
+  .reality2 {
+    flex-direction: column-reverse;
+    height: 50%;
+  }
+  .real3 {
+    width: 100%;
+    height: 50%;
+    padding-top: 9%;
+  }
+  .real3 .inverted-dots {
+    display: none;
+  }
+  .real4 {
+    width: 100%;
+    height: 50%;
+  }
+  .work-description {
+    padding-top: 16%;
+    padding-left: 14%;
+    margin-bottom: 10%;
+  }
+  .description a {
+    margin-left: 50%;
+  }
+  .scrollbutton {
+    display: none;
+  }
+  .contents-hor {
+    flex-direction: column;
+  }
+  .photopart {
+    width: 70%;
+  }
+  .contentpart {
+    width: 75%;
+  }
+  .gridboxes {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding-bottom: 5%;
+  }
+  .formpart {
+    flex-direction: column;
+  }
+  .formpart-content {
+    width: 100%;
+  }
+  .formpart-imgs {
+    width: 100%;
+  }
+}
+@media (max-width: 950px) {
+  .endingpart {
+    flex-direction: column;
+    height: auto;
+  }
+  .endingpart1 {
+    width: 100%;
+  }
+  .endingpart2 {
+    width: 100%;
+  }
+  .endingpart1 input[type="email"] {
+    margin-left: 12%;
+  }
+}
+@media (max-width: 780px) {
+  .homepage .introduction-content .main {
+    width: 90%;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+  .main-photo .p1 {
+    display: none;
+  }
+  .main-photo .p2 {
+    display: block;
+  }
+  .main #intro-button {
+    display: none;
+  }
+  .homepage .introduction-content .main .intro-text {
+    bottom: -4rem;
+    left: -1.1rem;
+  }
+  .intro-text h1 {
+    line-height: 2.5rem;
+    font-size: 3.2rem;
+  }
+  .dot-img img {
+    display: none;
+  }
+  .description a {
+    margin-left: 2%;
+  }
+  .photopart {
+    width: 90%;
+  }
+  .contentpart {
+    width: 87%;
+  }
+  .gridboxes {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    padding-bottom: 0%;
+  }
+  .gridboxes #box1 {
+    padding-top: 28%;
+  }
+  .gridboxes #box3 {
+    padding-top: 28%;
+  }
+  .gridboxes #box5 {
+    padding-top: 28%;
+  }
+}
+@media (max-width: 500px) {
+  .real2 h2 {
+    font-family: "Baloo Tammudu 2", cursive;
+    font-size: 2rem;
+    line-height: 100%;
+    padding-top: 1rem;
+  }
+  .link {
+    font-weight: 500;
+  }
+  .real3 h2 {
+    font-family: "Baloo Tammudu 2", cursive;
+    font-size: 1.5rem;
+    line-height: 100%;
+    padding-top: 1rem;
+  }
+  .description a {
+    display: none;
+  }
+  .contents-hor {
+    min-width: 80%;
+  }
+  #formopen {
+    width: 55%;
+  }
+}
+@media (max-width: 380px) {
+  .homepage .introduction-content .main .intro-text {
+    bottom: -1.9rem;
+    left: -0.6rem;
+  }
+  .intro-text h1 {
+    line-height: 2.3rem;
+    font-size: 2.7rem;
+  }
+  .real2 h2 {
+    font-size: 1.6rem;
+    padding-top: 1rem;
+  }
+  .link {
+    font-family: "Baloo Tammudu 2", cursive;
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 300px) {
+  .intro-text h1 {
+    line-height: 2rem;
+    font-size: 2.4rem;
+  }
+  #formopen {
+    font-size: 1.5rem;
+    padding: 0.3rem 0rem 0.3rem 0rem;
+  }
+}
